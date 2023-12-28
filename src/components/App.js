@@ -25,7 +25,7 @@ const calculateSumAsync = () => {
         {/* Do not remove the main div */}
         <h1>Sum calculator</h1>
         <input type="number" onChange={handleInputChange}/>
-        <p>Sum: {sum} </p>
+        <p>Sum: {sum}</p>
     </div>
   )
 }
