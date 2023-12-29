@@ -1,5 +1,5 @@
 
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import './../styles/App.css';
 
 const App = () => {
@@ -18,7 +18,7 @@ const calculateSumAsync = () => {
   setTimeout(() => {
     const calculatedSum = numbers.reduce((acc, num) => acc + num, 0);
     setSum(calculatedSum);
-  }, 4000); // Adjust the delay as needed
+  }, 300); // Adjust the delay as needed
 };
   return (
     <div>
