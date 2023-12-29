@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
 
   const [numbers, setNumbers] = useState([]);
-const [sum,setSum]=useState(0);
+const [sum,setSum]=useState(3);
 const handleInputChange = (event) => {
   const value = parseFloat(event.target.value);
   if (!isNaN(value)) {
